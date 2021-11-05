@@ -1,4 +1,4 @@
-﻿// Задача
+﻿// Задача dev1
 // Cформировать случайным образом целочисленный массив A
 // из натуральных двузначных чисел.
 
@@ -8,52 +8,83 @@
 // 3  чётные
  
 
-// Задать массив
 
-
-
-int index = 0;
-
-int[] array = new int[10];
-// Заполняет массив
-while (index < 10)
-{
-    array[index] = new Random().Next(10, 100); // [10, 99]
-    index++;
-}
-
-index = 0;
-// печатаем массив
-
-while (index <= 9)
-{
-    int val = array[index];
-    Console.WriteLine(val);
-    index++;
-}
-
-Console.WriteLine();
-index = 1;
-// Исключение элементов нарушения возрастания
-int currentElement = array[0];
-Console.WriteLine(currentElement);
-while (index <= 9)
-{
-    if(array[index]>currentElement)
+ int[] arr = new int[10];
+       
+ 
+    Console.WriteLine("Исходный массив");
+    Console.WriteLine();
+    int index = 0;
+    for (index = 0; index < 10; index++)
     {
-        Console.WriteLine(array[index]);
-        currentElement = array[index];
+        arr[index] = new Random().Next(10, 100);
+        Console.Write("{0} ", arr[index]);
+
+    }
+           
+
+
+
+// Исключение элементов нарушения возрастания
+
+int currentElement = arr[0];
+index = 1;
+Console.WriteLine();   
+Console.WriteLine("Массив без элементов, нарушающих порядок возрастания:");
+Console.Write(currentElement);
+
+while (index <= 9)
+{
+    if(arr[index]>currentElement)
+    {
+        Console.Write(" {0} ", arr[index]);
+        currentElement = arr[index];
     }
     index++;
 }
+Console.WriteLine();
+// Исключение элементов больше среднего арифметического массива А
+
+index = 0;
+int sum = 0;
+for (int i = 0; i < 10; i++)
+{
+ sum = sum + arr[i];
+}
+double average = sum / 10;
+
+Console.WriteLine();
+Console.WriteLine("Среднее арифметическое элементов исходного массива равно ");
+Console.WriteLine(average);
+Console.WriteLine();
+Console.WriteLine("Массив с исключенными элементами больше среднего арифметического элементов массива");
+while (index <=9)
+{
+    if (arr[index] < average)
+        
+    Console.Write("{0} ", arr[index]);
+    index++;
+}
+
+// Исключение четных элементов
+Console.WriteLine();
+Console.WriteLine("Исключили из массива четные элементы");
+index = 0;
+while (index <= 9)
+{
+    if(arr[index] % 2 != 0 )
+    {
+        Console.Write("{0} ", arr[index]);
+    
+    }
+    index++;
+}
+Console.WriteLine();
 
 
-
-
-
-// Задача
-// Имеется числовой массив A заполненный числами из отрезка [minValue; maxValue]. Создать на его основе масив B, отбрасывая те, которые нарушают порядок
-
-// возрастания
-// элементы, больше 8
-// знакочередования
+// // Задача
+// // Имеется числовой массив A заполненный числами из отрезка [minValue; maxValue]. 
+// // Создать на его основе масив B, отбрасывая те, которые нарушают порядок
+// // возрастания
+// // элементы, больше 8
+// // знакочередования

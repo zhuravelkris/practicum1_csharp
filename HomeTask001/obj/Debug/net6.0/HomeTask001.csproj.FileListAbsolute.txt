@@ -1,0 +1,16 @@
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/bin/Debug/net6.0/HomeTask001
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/bin/Debug/net6.0/HomeTask001.deps.json
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/bin/Debug/net6.0/HomeTask001.runtimeconfig.json
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/bin/Debug/net6.0/HomeTask001.dll
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/bin/Debug/net6.0/ref/HomeTask001.dll
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/bin/Debug/net6.0/HomeTask001.pdb
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/obj/Debug/net6.0/HomeTask001.GlobalUsings.g.cs
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/obj/Debug/net6.0/HomeTask001.csproj.AssemblyReference.cache
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/obj/Debug/net6.0/HomeTask001.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/obj/Debug/net6.0/HomeTask001.AssemblyInfoInputs.cache
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/obj/Debug/net6.0/HomeTask001.AssemblyInfo.cs
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/obj/Debug/net6.0/HomeTask001.csproj.CoreCompileInputs.cache
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/obj/Debug/net6.0/HomeTask001.dll
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/obj/Debug/net6.0/ref/HomeTask001.dll
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/obj/Debug/net6.0/HomeTask001.pdb
+/Users/maksimzuravel/Desktop/kris/c# /practicum1_csharp/repo/HomeTask001/obj/Debug/net6.0/HomeTask001.genruntimeconfig.cache
